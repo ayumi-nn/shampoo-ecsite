@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COCO</title>
+    <meta name="description" content="ページの説明" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+
+    <!-- web clip -->
+    <link rel="apple-touch-icon" href="img/webclip.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="COCO" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:description" content="ページの説明" />
+    <meta property="og:image" content="img/ogp.png" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="l-page-wrap">
+      <!-- header -->
+      <header class="header">
+        <p class="header-logo">
+          <img
+            src="img/logo.png"
+            width="85"
+            height="22"
+            alt="COCO"
+            decoding="async"
+            class=""
+          />
+        </p>
+        <div class="header-cart-icon-wrap">
+          <img
+            src="img/icon-cart.png"
+            width="26"
+            height="26"
+            alt="COCO"
+            decoding="async"
+            class="header-cart-icon"
+          />
+        </div>
+      </header>
+      <!-- main -->
+
+      <main class="l-container">
+        <picture>
+          <source media="(max-width:400px)" srcset="img/bg-error-kv-sp.png" />
+          <img
+            src="img/bg-error-kv-pc.png"
+            width="1366"
+            height="300"
+            alt=""
+            decoding="async"
+            class="l-maxwidth"
+          />
+        </picture>
+        <article class="l-section l--container-s">
+          <div class="error-container">
+            <div class="c-title-wrap error-title-wrap">
+              <p class="c-title-level1 error-title">404 ERROR</p>
+              <h1>お探しのページは見つかりませんでした</h1>
+            </div>
+            <p class="error-txt">
+              <span
+                >申し訳ございませんが、お探しのページは見つかりませんでした。</span
+              >
+              <span
+                >ページが削除されたか、URLが変更された可能性がございます。</span
+              >
+            </p>
+            <div class="c-button">
+              <a href="#" class="c-view-button">TOP</a>
+            </div>
+          </div>
+        </article>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="l-container">
+          <div class="footer-inner">
+            <p class="footer-logo">
+              <img src='img/logo-white.png' width='84' height='20' alt='COCO'
+              decoding='async'/ >
+            </p>
+            <nav class="footer-nav">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">運営会社</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">利用規約</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">プライバシーポリシー</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">特定法表記</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">お問い合わせ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <small class="footer-copyright">© 2021 coco, inc.</small>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

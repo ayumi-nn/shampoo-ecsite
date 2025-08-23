@@ -3,7 +3,7 @@
 ## 概要
 
 [HelloMentor](https://hellomentor.jp/)のコーディング課題として作成した、ECサイト風の架空のWeb サイトです。  
-レスポンシブデザイン対応。
+Figmaのデザインカンプからコーディングしました。  
 
 ## 公開 URL
 
